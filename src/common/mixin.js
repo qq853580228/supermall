@@ -1,6 +1,11 @@
 import {
   debounce
 } from "./utils.js";
+import {
+  POP,
+  NEW,
+  SELL
+} from "./const";
 
 import BackTop from 'components/content/backTop/BackTop.vue'
 

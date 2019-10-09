@@ -38,7 +38,7 @@ export default {
   },
   computed: {
     showImage () {
-      return this.goodsItem.image || this.goodsItem.show.img
+      return this.goodsItem.image || this.goodsItem.img
     }
   }
 }
@@ -85,7 +85,6 @@ export default {
   height: 14px;
   left: -15px;
   top: -1px;
-
   background: url("~assets/img/common/collect.svg") 0 0/14px 14px;
 }
 </style>
